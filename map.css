@@ -147,7 +147,26 @@ footer{
 
 /*Styles used to set the color, size, alignment, margin, padding, letter-spacing of the telephone*/ 
 
-
+/*Styles used to set the color, size, alignment, margin, padding, letter-spacing of the mail*/ 
+#mail{
+  color: white;
+  font-family: "Arial",sans-serif;
+  font-size: 10px;
+  text-align: right;
+  margin-right: 20px;
+  padding-top: 2px;
+  padding-right: 30px;
+  letter-spacing: 2px;
+  padding-bottom: 3px;
+  text-transform: lowercase;
+}
+#mail a{
+  color: white;
+  background-color: black;
+}
+#mail a:hover{
+  color: orange;
+}
 
 /*Styles used to set the position, padding, margin, color, and alignment of copyright text*/
 #copyright{
