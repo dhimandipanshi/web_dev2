@@ -1,0 +1,27 @@
+/*Style used to remove default spacing and setting text decoration and list style type to none to make a more creative layout */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  /*Styling header with background color,font family,and size*/
+  header{
+    background-color: orange;
+    font-family: cursive;
+    font-size: 22px;
+  }
+  
+  /*Style used to apply particular font to the area*/
+  body{
+    font-family: sans-serif;
+  }
+  
+  /*Style used to create a nav of specific background, height and width*/ 
+  nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+  }
