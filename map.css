@@ -146,6 +146,22 @@ footer{
 }
 
 /*Styles used to set the color, size, alignment, margin, padding, letter-spacing of the telephone*/ 
+#telephone{
+  color: white;
+  font-size: 12px;
+  text-align: right;
+  margin-right: 20px;
+  padding-right: 30px;
+  letter-spacing: 1px;
+  padding-bottom: 3px;
+}
+#telephone a{
+  color: white;
+  background-color: black;
+}
+#telephone a:hover{
+  color: orange;
+}
 
 /*Styles used to set the color, size, alignment, margin, padding, letter-spacing of the mail*/ 
 #mail{
