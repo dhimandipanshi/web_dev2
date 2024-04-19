@@ -134,7 +134,16 @@ footer{
   padding-top: 4px;
 }
 
-
+/*Styling the icons display, position and their color along with padding*/
+.socialplatforms{
+  display: flex;
+  justify-content: center;
+}
+.socialplatforms a{
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
 
 /*Styles used to set the color, size, alignment, margin, padding, letter-spacing of the telephone*/ 
 
