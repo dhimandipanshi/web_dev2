@@ -25,3 +25,93 @@
     height: 80px;
     width: 100%;
   }
+
+  
+/*Style used to style the logo placed with the nav bar with specific color, size, line height, padding and font weight*/
+label.logo{
+    color: white;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 40px;
+    font-weight: bold;
+  }
+  
+  /*To make the nav bar slide to the right side with given margin*/
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  
+  /*To make the list in the blocks*/
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  /*To style the links of the nav with color, size, padding, border radius*/
+  nav ul li a{
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  /*Pseudo classes used to give different colors and transitions to different actions*/
+  a.active,a:hover{
+    background: goldenrod;
+    transition: .5s;
+  }
+  
+  /*Buttons used for opening the nav bar in the mobile view*/
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+  article{
+    font-family: cursive;
+    margin-top: 4%;
+  }
+  
+  
+  /*Styling the image container and adjusting images*/
+  #container{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+  #container img{
+    display: inline-block;
+    max-width: 28%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    border: 2px solid black;
+  }
+  
+  /*Styling the footer with height, background color, font faimily, padding, position and width*/
+  footer{
+    height: 15%;
+    background-color: black;
+    font-family:"Audiowide","monospace;";
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /*Setting size of location icon*/
+  #fa-solid fa-location-dot{
+    size: 40px;
+  }
+  
