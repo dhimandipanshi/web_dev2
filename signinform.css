@@ -103,7 +103,13 @@ a.active,a:hover{
 }
 
 }
-.
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label{
+	top: -20px;
+	left: 0;
+	color: #FFFFFF;
+	font-size: 23px;
+}
 .login-box form a{
 	position: relative;
 	display: inline-block;
