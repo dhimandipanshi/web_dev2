@@ -7,7 +7,12 @@
   box-sizing: border-box;
 }
 
-
+/*Styling header with background color,font family,and size*/
+header{
+  background-color: orange;
+  font-family: cursive;
+  font-size: 22px;
+}
 
 
 /*Style used to apply particular font to the area*/
