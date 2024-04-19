@@ -139,7 +139,23 @@ a.active,a:hover{
 }
 	            
 
-
+/*Styles for tablet view*/
+@media (max-width: 768px){
+  header{
+    font-size: 17px;
+  }
+  label.logo{
+    font-size: 15px;
+    padding-left: 1px;
+  }
+  nav ul{
+    margin-right: 3px;
+  }
+  nav ul li a{
+    font-size: 11px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 
   /*Styles for mobile view*/
 @media (max-width: 482px){
