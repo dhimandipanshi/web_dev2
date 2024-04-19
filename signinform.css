@@ -22,7 +22,14 @@ nav{
   width: 100%;
 }
 
-
+/*Style used to style the logo placed with the nav bar with specific color, size, line height, padding and font weight*/
+label.logo{
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 40px;
+  font-weight: bold;
+}
 
 /*To make the nav bar slide to the right side with given margin*/
 nav ul{
