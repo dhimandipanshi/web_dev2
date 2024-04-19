@@ -18,3 +18,35 @@ nav{
   height: 80px;
   width: 100%;
 }
+
+/*Style used to style the logo placed with the nav bar with specific color, size, line height, padding and font weight*/
+label.logo{
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 40px;
+  font-weight: bold;
+}
+
+/*To make the nav bar slide to the right side with given margin*/
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+/*To make the list in the blocks*/
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+/*To style the links of the nav with color, size, padding, border radius*/
+nav ul li a{
+  color: white;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
