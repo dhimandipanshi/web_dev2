@@ -30,7 +30,12 @@ nav ul{
   margin-right: 20px;
 }
 
-
+/*To make the list in the blocks*/
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
 
 /*To style the links of the nav with color, size, padding, border radius*/
 nav ul li a{
