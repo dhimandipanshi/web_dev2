@@ -47,7 +47,16 @@ a.active,a:hover{
   transition: .5s;
 }
 
-
+/*Buttons used for opening the nav bar in the mobile view*/
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
 #check{
   display: none;
 }
