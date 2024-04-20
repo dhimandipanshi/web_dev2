@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FashionX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/signinform.css" media="screen">
+    <script src="https://kit.fontawesome.com/e0261b6495.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header><marquee direction="left" scrollamount="20" > Welcome to FashionX! Be Unique </marquee></header>
+    <!-- Place the navigation links here -->
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">FashionX</label>
+      <ul>
+        <li><a href="../homepage.html">Home</a></li>
+        <li><a href="clothes.html">Clothes</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+        <li><a href="moreinfo.html">More Info</a></li>
+        <li><a class="active" href="signinform.html">Sign In</a></li>
+      </ul>
+    </nav>
+    <div class="showcase">
+        <div class="video-container">
+            <video src="../media/video/formvideo.mp4" type="video/mp4" width="100%" autoplay muted loop id="myvideo"></video>
+            <center> 
+                <div class="content">
+                    <h1>FASHION&nbsp;X
+                    </h1>
+                </div>
+            </center>
+        </div>
+    </div>
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <div class="user-box">
+                <input type="text" name="username" id="username" required>
+                <label>Username</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="password" id="password" required>
+                <label>Password</label>
+            </div>
+            <a href="../homepage.html">Submit</a>
+        </form>
+    </div>
+</body>
+</html>
