@@ -1,0 +1,347 @@
+/*Style used to remove default spacing and setting text decoration and list style type to none to make a more creative layout */
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+/*Styling header with background color,font family,and size*/
+header{
+  background-color: orange;
+  font-family: cursive;
+  font-size: 22px;
+}
+
+/*Style used to apply particular font to the area*/
+body{
+  font-family: sans-serif;
+}
+
+/*Style used to create a nav of specific background, height and width*/ 
+nav{
+  background: black;
+  height: 80px;
+  width: 100%;
+}
+
+  
+/*Style used to style the logo placed with the nav bar with specific color, size, line height, padding and font weight*/
+label.logo{
+  color: white;
+  font-size: 25px;
+  line-height: 80px;
+  padding: 0 40px;
+  font-weight: bold;
+}
+
+/*To make the nav bar slide to the right side with given margin*/
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+/*To make the list in the blocks*/
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+/*To style the links of the nav with color, size, padding, border radius*/
+nav ul li a{
+  color: white;
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+/*Pseudo classes used to give different colors and transitions to different actions*/
+a.active,a:hover{
+  background: goldenrod;
+  transition: .5s;
+}
+
+/*Buttons used for opening the nav bar in the mobile view*/
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+
+/*Styling about us paragraphs*/
+
+.about{
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+
+/*Styling Table*/
+table{
+  width: 80%;
+  border-radius: 4px;
+  border: 2px solid black;
+  border-right: 2px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+}
+
+/*Styling the footer with height, background color, font faimily, padding, position and width*/
+footer{
+  height: 15%;
+  background-color: black;
+  font-family:"Audiowide","monospace;";
+  padding-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/*Setting size of location icon*/
+#fa-solid fa-location-dot{
+  size: 40px;
+}
+
+/*Styles used to set the alignment, color, margin, padding, and font size of the location*/
+#location{
+  text-align: right;
+  color: white;
+  margin-right: 30px;
+  padding-right: 10px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/*Styling the link color and its background color on different actions using psudo classes*/
+#location a{
+  color: white;
+}
+
+#location a:hover{
+  color: orange;
+  background-color: black;
+}
+
+/*To Style the given class with color, alignment, font size and family and padding*/
+#follow{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+/*Styling the icons display, position and their color along with padding*/
+.socialplatforms{
+  display: flex;
+  justify-content: center;
+}
+.socialplatforms a{
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/*Styles used to set the color, size, alignment, margin, padding, letter-spacing of the telephone*/ 
+#telephone{
+  color: white;
+  font-size: 12px;
+  text-align: right;
+  margin-right: 20px;
+  padding-right: 30px;
+  letter-spacing: 1px;
+  padding-bottom: 3px;
+}
+#telephone a{
+  color: white;
+  background-color: black;
+}
+#telephone a:hover{
+  color: orange;
+}
+
+/*Styles used to set the color, size, alignment, margin, padding, letter-spacing of the mail*/ 
+#mail{
+  color: white;
+  font-family: "Arial",sans-serif;
+  font-size: 10px;
+  text-align: right;
+  margin-right: 20px;
+  padding-top: 2px;
+  padding-right: 30px;
+  letter-spacing: 2px;
+  padding-bottom: 3px;
+  text-transform: lowercase;
+}
+#mail a{
+  color: white;
+  background-color: black;
+}
+#mail a:hover{
+  color: orange;
+}
+
+/*Styles used to set the position, padding, margin, color, and alignment of copyright text*/
+#copyright{
+  bottom: 0;
+  padding-bottom: 8pxpx;
+  margin-bottom: 6px;
+  color: white;
+  text-align: center;
+}
+
+
+/*Styles for tablet view*/
+@media (max-width: 768px){
+  header{
+    font-size: 17px;
+  }
+  label.logo{
+    font-size: 15px;
+    padding-left: 1px;
+  }
+  nav ul{
+    margin-right: 3px;
+  }
+  nav ul li a{
+    font-size: 11px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  #follow{
+    justify-content: center;
+    font-size: 10px;
+    padding-top: 2px;
+  }
+  #location{
+    text-align: right;
+    color: white;
+    margin-right: 8px;
+    padding-right: 4px;
+    letter-spacing: 1px;
+    font-size: 9px;
+  }
+  #telephone{
+    color: white;
+    font-size: 8px;
+    text-align: right;
+    margin-right: 4px;
+    padding-right: 4px;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+  }
+  #mail{
+    color: white;
+    font-size: 8px;
+    text-align: right;
+    margin-right: 4px;
+    padding-top: 2px;
+    padding-right: 4px;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+  }
+  #copyright{
+    font-size: 11px;
+    padding-top: 3px;
+    padding-bottom: 8pxpx;
+    margin-bottom: 6px;
+    color: white;
+    text-align: center;
+  }
+  .socialplatforms{
+    font-size: 10px;
+  }
+}
+
+/*Styles for mobile view*/
+@media (max-width: 482px){
+  header{
+    font-size: 12px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  #follow{
+    justify-content: center;
+    font-size: 8px;
+    padding-top: 2px;
+  }
+  #location{
+    text-align: right;
+    color: white;
+    margin-right: 1px;
+    padding-right: 1px;
+    letter-spacing: 1px;
+    font-size: 6px;
+  }
+   #telephone{
+    color: white;
+    font-size: 6px;
+    text-align: right;
+    margin-right: 1px;
+    padding-right: 1px;
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+  }
+  #mail{
+    color: white;
+    font-size: 6px;
+    text-align: right;
+    padding-top: 2px;
+    margin-right: 4px;
+    padding-right: 4px;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+  }
+  #copyright{
+    font-size: 9px;
+    padding-top: 3px;
+    padding-bottom: 8px;
+    margin-bottom: 6px;
+    color: white;
+    text-align: center;
+  }
+  .socialplatforms{
+    font-size: 8px;
+  }
+}
